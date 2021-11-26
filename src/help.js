@@ -1,7 +1,7 @@
 const help = (prefix) => {
 	return `
 
-⌜ DragonBot By Dragón ⌟  
+⌜ 𝘿𝙧𝙖𝙜𝙤𝙣𝘽𝙤𝙩 𝘽𝙮 𝘿𝙧𝙖𝙜𝙤𝙣 ⌟  
 
 ◉ INFORMACION
    ○ Comando: ⌜ ! ⌟
@@ -101,7 +101,7 @@ Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los
 
 
 
-*by Dragón*
+𝙗𝙮 𝘿𝙧𝙖𝙜𝙤𝙣
 
 
  
