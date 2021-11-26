@@ -1728,8 +1728,8 @@ break
                   reply(`Que paso put@?`)
                   }
 		
-		if (budy.includes(`bot`)) {
-                  reply(`Que paso put@`)
+		if (budy.includes(`grupo`)) {
+                  reply(`Este grupo es nada más para hacer amigos y desmadre, nada de buscar novi@ o andar de urgid@s, eso qué wey?, Ojito putas!!`)
                   }
 					
 		if (budy.includes(`gracias`)) {
