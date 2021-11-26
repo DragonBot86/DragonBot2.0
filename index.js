@@ -76,7 +76,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:3.0\n' 
             + 'FN:Dragon\n' // Nombre
             + 'ORG:Dragon;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=529626063383:+52 962 606 3383\n' // ID de WhatsApp + número de teléfono
+            + 'TEL;type=CELL;type=VOICE;waid=972524588528:+972 52-458-8528\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
@@ -255,11 +255,16 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `!HOLA ZORRA! @${num.split('@')[0]} ¿CÓMO ESTÁS?🎭\n\n『Bienvenid@ a este grupo llamado *${mdata.subject}*』\n\nPresentarse con Foto, Nombre, Edad Y Pais🎩\n\n_Evita hacer pendejadas y cumple las reglas, ok?🧐_\n\n*NO MANDES TU LINK DE MIERDA🎩*`
+				teks = `¡HOLA NEFASTO! @${num.split('@')[0]}🐉\n\n『Bienvenido/a a *${mdata.subject}*』\n\n《💀》𝑷𝒓𝒆𝒔𝒆𝒏𝒕𝒂𝒓𝒔𝒆 𝒄𝒐𝒏:
+𝙁𝙤𝙩𝙤:
+𝙉𝙤𝙢𝙗𝙧𝙚:
+𝙀𝙙𝙖𝙙:
+𝙋𝙖𝙞𝙨:《💀》\n\n┉┅━ Recuerda leer las reglas, ok?, Edad permitida 14 a 25 años°☆°
+\n\nNo vengas hacer bardo, zorra🖇️`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE QUE DIOS LO BENDIGA`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nBYE PUTA`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -333,7 +338,7 @@ async function starts() {
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
 			const botNumber = client.user.jid
-			const ownerNumber = ["529626063383@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["972524588528@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -359,7 +364,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '529626063383@s.whatsapp.net'
+                        const NomerOwner = '972524588528@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
                         const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
 			
@@ -707,7 +712,7 @@ break
 //FIN DE FUNCIONES BAN Y DESBAN					
 					
 					
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/
+/******JUEGOS DRAGON LA PUTA MADRE NO TE OLVIDES******/
 					
 case 'gay':
 if (!isUser) return reply(mess.only.daftarB)
@@ -844,7 +849,7 @@ break
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _*by Dragon*_ 〙', members_id, true)
+					mentions('╔══✪〘 *TODOS* 〙✪══\n╠➥'+teks+'╚═〘 _by Dragón_ 〙', members_id, true)
 					break
                                 case 'send':
 					var pc = body.slice(6)
@@ -853,7 +858,7 @@ break
 					client.sendMessage(nomor+'@s.whatsapp.net', pesan, text)
 					break
 				case 'apagar':
-                                        if (!isOwner) return reply('tu quien eres para decirme que hacer!?🤔')
+                                        if (!isOwner) return reply('tu quien eres para decirme que hacer!?, No eres Dragón')
                                         reply('Me apagare en 3 Segundos....')
                                         setTimeout( () => {
                                         samu330.close() }, 3000)
@@ -868,7 +873,7 @@ break
                                         })
                                         break
 				case 'restaurar':
-                                        if (!isOwner) return reply('tu quien eres para decirme que hacer!?🤔')
+                                        if (!isOwner) return reply('tu quien eres para decirme que hacer!?, No eres Dragón')
                                         reply('LA INFORMACION DE ESTE USUARIO SE RESTABLECERA PARA PODER USAR Y ESCANEAR EL CODIGO EN OTRO DISPOSITIVO')
                                         exec(`bash restore.sh`, (err, stdout) => {
                                         if (err) return reply(err)
@@ -926,7 +931,7 @@ break
 		
                                        
 				
-			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE SHANDUY TE HIZO TODO ESTO	
+			//ANTILINKS DE REDES SOCIALES FLACO ACEPTALO SOLO LO ESTAS EDITANDO REALMENTE DRAGON TE HIZO TODO ESTO	
 				
 				case 'antiwa':
                                         if (!isGroup) return reply(mess.only.group)
@@ -1078,7 +1083,7 @@ break
 					break
 			        
 				
-				//FIN DE ANTILINK HECHO POR OCHOA
+				//FIN DE ANTILINK HECHO POR DRAGÓN
 				
 //ADMINISTRACION DE GRUPOS
 		                
@@ -1349,7 +1354,7 @@ break
 					
 					case 'attp':
 						if (!isUser) return reply(mess.only.daftarB)
-					        if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp Qlones`)
+					        if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp putas`)
 						reply(mess.only.attp)
 					        attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
 						client.sendMessage(from, attp2, MessageType.sticker, {quoted: mek})
@@ -1372,7 +1377,7 @@ break
 						fs.unlinkSync(media)
 						if (err) return reply('❌ No se pudo convertir el sticker en imágenes')
 						buffer = fs.readFileSync(ran)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\n_*by Dragon*_'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: '*⌈ Imagen convertida ✅ ⌉*\n\n_*by Dragón*_'})
 						fs.unlinkSync(ran)
 					})
 					break
@@ -1418,7 +1423,7 @@ break
                 play = body.slice(5)
                 anu = await fetchJson(`https://api.zeks.me/api/ytplaymp3?q=${play}&apikey=20shanduy`)
                 if (anu.error) return reply(anu.error)
-                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Dragon*_`
+                infomp3 = `*⌜Cancion Encontrada ✅⌟*\n◉ *Título:* ${anu.result.title}\n◉ *Fuente:* ${anu.result.source}\n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP3 ⚠*\n\n_*Servicio proveido por Dragón*_`
                 buffer = await getBuffer(anu.result.thumbnail)
                 lagu = await getBuffer(anu.result.url_audio)
                 client.sendMessage(from, buffer, image, {quoted: mek, caption: infomp3})
@@ -1432,7 +1437,7 @@ break
 		if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
 		anu = await fetchJson(`https://api.zeks.me/api/ytmp4?apikey=${apikey}&url=${args[0]}`, {method: 'get'})
 		if (anu.error) return reply(anu.error.yt)
-		teks = `*⌜Video Encontrado ✅⌟*\n◉ *Título:* ${anu.result.title} \n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP4 ⚠*\n\n_*Servicio proveido por Dragon*_`
+		teks = `*⌜Video Encontrado ✅⌟*\n◉ *Título:* ${anu.result.title} \n◉ *Tamaño:* ${anu.result.size}\n\n*ESPERE ENVIANDO SU ARCHIVO MP4 ⚠*\n\n_*Servicio proveido por Dragón*_`
 		lagu = await getBuffer(anu.result.thumbnail)
                 client.sendMessage(from, lagu, image, {quoted: mek, caption: teks})
 		buffer = await getBuffer(anu.result.url_video)
@@ -1453,7 +1458,7 @@ var reg = body.slice(8)
 var nombre = reg.split("|")[0];
 user.push(sender)
 fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`DNI: ZORRA\`\`\`\n\n\`\`\`Hora MX: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}menu\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
+client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`DNI: PUTA DE DRAGÓN 😈\`\`\`\n\n\`\`\`Hora MX: ${time}\`\`\`\n\n\`\`\`Fecha: ${date}\`\`\`\n\n\`\`\`[Usuario]: ${nombre}\`\`\`\n\`\`\`[Número]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}menu\`\`\`\n\`\`\`\nTotal de usuários: ${user.length}\`\`\``, text, {quoted: mek})
 break
                                 
 //FIN DE REGISTRO  
@@ -1720,7 +1725,7 @@ break
                 default:
                 
 		if (budy.includes(`Bot`)) {
-                  reply(`Que paso put@`)
+                  reply(`Que paso put@?`)
                   }
 		
 		if (budy.includes(`bot`)) {
