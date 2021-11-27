@@ -1,15 +1,16 @@
 const help = (prefix) => {
 	return `
 
+✥------------------- † -------------------✥
 ⌜ 𝘿𝙧𝙖𝙜𝙤𝙣𝘽𝙤𝙩 𝘽𝙮 𝘿𝙧𝙖𝙜𝙤𝙣 ⌟  
-
+✥------------------- † -------------------✥
 ◉ INFORMACION
    ○ Comando: ⌜ ! ⌟
-   ○ Creador: Dragón
+   ○ Creador: Dragón⛓️
 
 ◉ PARA USAR EL BOT
 Registrate con el comando !daftar y tu nombre
-Ejemplo !daftar: Dragón
+Ejemplo !daftar: Dragón⛓️
 
 ◉ NUEVOS COMANDOS
 ○ !banmenu
@@ -21,7 +22,7 @@ Su nombre lo dice todo (antilink)
 ○ !otak
 Monas chinas
 ○ !shantera
-Interactua con el bot
+Interactua con el bot⛓️
 
 ◉ NUEVOS MENUS
 ○ !juegos
@@ -33,63 +34,63 @@ Conoce el creador del bot
 ○ !version
 Conoce la versión de tu bot
 ○ !welmenu
-Comando de bienvenida solo grupos
+Comando de bienvenida solo grupos⛓️
 
-
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 ◉ CREAR STICKERS
   ║
-  ⌿❑ ○ !sticker
-  ⌿❑ ○ !attp
-  ⌿❑ ○ Mas un texto corto
-  ⌿❑ ○ !stickergif
-  ⌿❑ 6 segundos de video
-
+  ╠➥🔥 ○ !sticker
+  ╠➥🔥 ○ !attp
+  ╠➥🔥 ○ Mas un texto corto
+  ╠➥🔥 ○ !stickergif
+  ╠➥🔥 6 segundos de video
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 ◉ CONVERTIDORES
   ║
-  ⌿❑ ○ !toimg
-  ⌿❑ De sticker a JPG
-  ⌿❑ ○ !tomp3
-  ⌿❑ De video a MP3
-
+  ╠➥🔥 ○ !toimg
+  ╠➥🔥 De sticker a JPG
+  ╠➥🔥 ○ !tomp3
+  ╠➥🔥 De video a MP3
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 ◉ AUDIO
   ║
-  ⌿❑ ○ !idioma
-  ⌿❑○ !tts es (mas texto)
-
+  ╠➥🔥 ○ !idioma
+  ╠➥🔥○ !tts es (mas texto)
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 ◉ OTROS
   ║
-  ⌿❑ ○ !wame
-  ⌿❑ Link de Whatsapp
-  ⌿❑ ○ !qrcode
-  ⌿❑ ○ Coloca un texto
-
+  ╠➥🔥 ○ !wame
+  ╠➥🔥 Link de Whatsapp
+  ╠➥🔥 ○ !qrcode
+  ╠➥🔥 ○ Coloca un texto
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 ◉ GRUPOS
   ║
-  ⌿❑ ○ !unir
-  ⌿❑ Unir a una persona al grupo
-  ⌿❑ ○ !foto
-  ⌿❑ Cambiar foto del grupo
-  ⌿❑ ○ !name
-  ⌿❑ Cambiar nombre del grupo
-  ⌿❑ ○ !des
-  ⌿❑ Cambiar descripcion del grupo
-  ⌿❑ ○ !cerrar
-  ⌿❑ Cerrar el grupo solo admins
-  ⌿❑ ○ !abrir
-  ⌿❑ Abrir grupo solo admins
-  ⌿❑ ○ !alv
-  ⌿❑ Eliminar a un miembro 
-  ⌿❑ ○ !promote
-  ⌿❑ Dar admin a un miembro
-  ⌿❑ ○ !demote
-  ⌿❑ Quitar el admin
-  ⌿❑ ○ !linkgc
-  ⌿❑ Link del grupo
-  ⌿❑ ○ !adminlist
-  ⌿❑ Nombra a los admins del grupo
-  ⌿❑ ○ !todos
-  ⌿❑ Nombra a todos los del grupo
-
+  ╠➥🔥 ○ !unir
+  ╠➥🔥 Unir a una persona al grupo
+  ╠➥🔥 ○ !foto
+  ╠➥🔥 Cambiar foto del grupo
+  ╠➥🔥 ○ !name
+  ╠➥🔥 Cambiar nombre del grupo
+  ╠➥🔥 ○ !des
+  ╠➥🔥 Cambiar descripcion del grupo
+  ╠➥🔥 ○ !cerrar
+  ╠➥🔥 Cerrar el grupo solo admins
+  ╠➥🔥 ○ !abrir
+  ╠➥🔥 Abrir grupo solo admins
+  ╠➥🔥 ○ !alv
+  ╠➥🔥 Eliminar a un miembro 
+  ╠➥🔥 ○ !promote
+  ╠➥🔥 Dar admin a un miembro
+  ╠➥🔥 ○ !demote
+  ╠➥🔥 Quitar el admin
+  ╠➥🔥 ○ !linkgc
+  ╠➥🔥 Link del grupo
+  ╠➥🔥 ○ !adminlist
+  ╠➥🔥 Nombra a los admins del grupo
+  ╠➥🔥 ○ !todos
+  ╠➥🔥 Nombra a todos los del grupo
+✶⊶⊷⊶⊶⊷⊶⊷❍⊶⊷⊶⊶⊷⊶⊷✶
 Para usar estas funciones el bot necesita admin
   
 ◉ NSWF 
@@ -97,7 +98,6 @@ Para usar estas funciones el bot necesita admin
   ⌿❑ ○ !nsfwmenu
 
 Para activar los NSFW coloque el siguiente comando !nsfw 1 y para desactivar los NSFW coloque !nsfw 0
-
 
 
 
