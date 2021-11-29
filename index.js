@@ -76,7 +76,7 @@ const vcard = 'BEGIN:VCARD\n' // Tarjeta de contacto
             + 'VERSION:3.0\n' 
             + 'FN:Dragon\n' // Nombre
             + 'ORG:Dragon;\n' // Propietario
-            + 'TEL;type=CELL;type=VOICE;waid=972524588528:+972 52-458-8528\n' // ID de WhatsApp + número de teléfono
+            + 'TEL;type=CELL;type=VOICE;waid=972524987749:+972 52-498-7749\n' // ID de WhatsApp + número de teléfono
             + 'END:VCARD'
 /******FIN DE ENTRADA VCARD******/
 
@@ -318,12 +318,12 @@ async function starts() {
 					Iv: 'Este no es un link de youtube'
 					},
 				only: {
-					group: '[❗] Este comando es solo para grupos pendejo',
-					ownerG: '[❗] Este comando solo puede ser utilizado por los dioseeeees',
+					group: '[❗] Este comando es solo lo puede utilizar el administrador',
+					ownerG: '[❗] Este comando solo puede ser utilizado por los Jefes',
 					ownerB: '[❗] JAJAJAJA SOLO LO USA EL JEFE XD',
-					admin: '[❗] Este comando solo puede ser utilizado por los dioseeeeeees',
+					admin: '[❗] Este comando solo puede ser utilizado por los Jefes',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en un dios',
-                                        pegatina: 'Recibido Fuerte Y Claro\n\n*Recuerda los stickersgif son de 6 segundos*\n\n_*by Dragon*_',
+                                        pegatina: 'Recibido Fuerte Y Claro🎩\n\n*Recuerda los stickersgif son de 6 segundos*\n\n_*by Dragon*_',
 					attp: 'Recibido Fuerte Y Claro Covirtiendo Tu Texto A Sticker 👏\n\n*Esto puede demorar unos minutos*\n\n_*by Dragon*_',
 					imgs: 'SI SEÑOR\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\n_*by Dragon*_',
 					mpcancion: 'SIUUUUU\n\n*Convirtiendo de MP4 a MP3 🔄*\n\n_*by Dragon*_',
@@ -332,13 +332,13 @@ async function starts() {
 					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\n_*by Dragon*_',
 					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play no funciona utiliza el comando !play2*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragon*_',
 					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play2 no funciona utiliza el comando !play*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragon*_',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nSEÑOR NO ESTAS PERMITIDO\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Dragon`,
+					daftarB: `「NO ESTAS REGISTRADO」\n\nNEFASTO NO ESTAS PERMITIDO\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Dragon`,
 				}
 			}
     			const apakah = ['Si','No']
                         const kapankah = ['Otro día','Otra semana','Otro mes','Otro año']
 			const botNumber = client.user.jid
-			const ownerNumber = ["972524588528@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ["972524987749@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 	                const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -364,7 +364,7 @@ async function starts() {
 			const isOwner = ownerNumber.includes(sender)
                         const isUser = user.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '972524588528@s.whatsapp.net'
+                        const NomerOwner = '972524987749@s.whatsapp.net'
                         const conts = mek.key.fromMe ? client.user.jid : client.contacts[sender] || { notify: jid.replace(/@.+/, '') }
                         const pushname = mek.key.fromMe ? client.user.name : conts.notify || conts.vname || conts.name || '-'
 			
