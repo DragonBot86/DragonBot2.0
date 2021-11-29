@@ -1736,8 +1736,8 @@ break
                   reply(`Cual gracias? encuerate`)
                   }			
 					
-	        if (budy.includes(`Todo bien`)) {
-                  reply(`Si amig@ todo bien`)
+	        if (budy.includes(`Infinity Ghost`)) {
+                  reply(`Son una mierda🥶`)
                   }
 
 		if (budy.includes(`Buenos dias`)) {
