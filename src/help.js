@@ -84,7 +84,7 @@ Comando de bienvenida solo grupos⛓️
   ╠➥🔥 Dar admin a un miembro
   ╠➥🔥 ○ !demote
   ╠➥🔥 Quitar el admin
-  ╠➥🔥 ○ !linkgc
+  ╠➥🔥 ○ !link
   ╠➥🔥 Link del grupo
   ╠➥🔥 ○ !adminlist
   ╠➥🔥 Nombra a los admins del grupo
