@@ -318,14 +318,14 @@ async function starts() {
 					Iv: 'Este no es un link de youtube'
 					},
 				only: {
-					group: '[❗] Este comando es solo lo puede utilizar el administrador',
+					group: '[❗] Este comando es solo lo pueden utilizar los Jefes ',
 					ownerG: '[❗] Este comando solo puede ser utilizado por los Jefes',
 					ownerB: '[❗] JAJAJAJA SOLO LO USA EL JEFE XD',
 					admin: '[❗] Este comando solo puede ser utilizado por los Jefes',
-					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en un dios',
-                                        pegatina: 'Recibido Fuerte Y Claro🎩\n\n*Recuerda los stickersgif son de 6 segundos*\n\n_*by Dragon*_',
+					Badmin: '[❗] Este comando solo lo pueden utilizar los Jefes',
+                                        pegatina: 'Recibido fuerte y claro🎩\n\n*Recuerda los stickersgif son de 6 segundos*\n\n_*by Dragon*_',
 					attp: 'Recibido Fuerte Y Claro Covirtiendo Tu Texto A Sticker 👏\n\n*Esto puede demorar unos minutos*\n\n_*by Dragon*_',
-					imgs: 'SI SEÑOR\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\n_*by Dragon*_',
+					imgs: 'SI NEFASTO\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\n_*by Dragon*_',
 					mpcancion: 'SIUUUUU\n\n*Convirtiendo de MP4 a MP3 🔄*\n\n_*by Dragon*_',
 					mpa: 'MI ESTIMADO\n\n*Estoy descargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\n_*by Dragon*_',
                                         mpv: 'UN MOMENTO\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\n_*by Dragon*_',
@@ -1260,11 +1260,11 @@ if (Number(args[0]) === 1) {
 if (isWelkom) return reply('Ya esta activada!!!')
 welkom.push(from)
 fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-reply('❬ ✅ ❭ La funcion de bienvenida esta habilitada en este grupo')
+reply('❬ ⛓️ ❭ La funcion de bienvenida esta habilitada en este grupo')
 } else if (Number(args[0]) === 0) {
 welkom.splice(from)
 fs.writeFileSync('./database/json/welkom.json', JSON.stringify(welkom))
-reply('❬ ✅ ❭ La funcion de bienvenida esta deshabilitada en este grupo')
+reply('❬ ⛓️ ❭ La funcion de bienvenida esta deshabilitada en este grupo')
 } else {
 reply('Escribe el comando 1 para activarlo y 0 para desactivarlo Ejemplo: !welcome 1')
 }
@@ -1551,7 +1551,7 @@ break
                                                 if (!isUser) return reply(mess.only.daftarB)
                                                 res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap?apikey=APIKEYLU`, {method: 'get'})
                                                 buffer = await getBuffer(res.result)
-                                                client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Estas enfermo flaco NEFASTOOOOO'})
+                                                client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Estas enfermo flaco'})
                                         } catch (e) {
                                                 console.log(`*Error* :`, color(e,'red'))
                                                 reply('❌ *ERROR* ❌')
@@ -1741,7 +1741,7 @@ break
                   }
 
 		if (budy.includes(`Buenos dias`)) {
-                  reply(`BUENOS DIAS QLONEEEEEEES`)
+                  reply(`BUENOS DIAS QLONES`)
                   }
 
 		if (budy.includes(`Bot gay`)) {
