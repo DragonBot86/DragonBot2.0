@@ -332,7 +332,7 @@ async function starts() {
 					insta: 'Calmao 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\n_*by Dragon*_',
 					musica: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play no funciona utiliza el comando !play2*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragon*_',
 					musica2: 'Calmao pa estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando !play2 no funciona utiliza el comando !play*\n\nSi no envio tu musica checa que version tienes del bot con !version\n\n_*by Dragon*_',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nNEFASTO NO ESTAS PERMITIDO\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar Dragon`,
+					daftarB: `「NO ESTAS REGISTRADO」\n\nNEFASTO NO ESTAS PERMITIDO\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}reg Nombre\nEjemplo: ${prefix}reg Dragon`,
 				}
 			}
     			const apakah = ['Si','No']
@@ -754,7 +754,7 @@ reply('Hubo un error intentalo nuevamente :/')
 }
 break				
 											
-/******JUEGOS OCHOA LA PUTA MADRE NO TE OLVIDES******/					
+/******JUEGOS DRAGÓN LA PUTA MADRE NO TE OLVIDES******/					
 					
 					
        				case 'wa.me':
@@ -903,7 +903,7 @@ break
 						reply('')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `*「 _*by Dragon*_ 」*\n\n${body.slice(4)}`)
+							sendMess(_.jid, `*「 _by Dragón_ 」*\n\n${body.slice(4)}`)
 						}
 						reply('Transmisión exitosa')
 					}
@@ -1095,7 +1095,7 @@ client.groupLeave (from)
 }, 2000)
 setTimeout( () => {
 client.updatePresence(from, Presence.composing) 
-client.sendMessage(from, 'HAY NOS VEMOS DIJO EL CIEGO', text) // ur cods
+client.sendMessage(from, 'Chao putas de Dragón', text) // ur cods
 }, 0)
 break
        
@@ -1452,8 +1452,8 @@ break
 case 'reg':
 case 'daftar':
 client.updatePresence(from, Presence.composing)
-if (isUser) return reply('Ya estas registrado')
-if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}daftar Nombre\n\nEjemplo: ${prefix}daftar Dragon`)
+if (isUser) return reply('Ya estas registrado pendejo')
+if (args.length < 1) return reply(`Incorrecto ❎\nComando: ${prefix}reg Nombre\n\nEjemplo: ${prefix}reg Dragon`)
 var reg = body.slice(8)
 var nombre = reg.split("|")[0];
 user.push(sender)
